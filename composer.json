@@ -1,11 +1,5 @@
 {
-    "name": "vendor/php-project1",
-    "description": "Description of project PhpProject1.",
-    "authors": [
-        {
-            "name": "Rien",
-            "email": "your@email.here"
-        }
-    ],
-    "require": {}
+    "require": {
+        "letournel/path-finder" : "~1.0"
+    }
 }

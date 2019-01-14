@@ -6,9 +6,30 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit277cbfa8a94bdf5a7eb06525fb8ecab6
 {
+    public static $prefixLengthsPsr4 = array (
+        'L' => 
+        array (
+            'Letournel\\PathFinder\\Tests\\' => 27,
+            'Letournel\\PathFinder\\' => 21,
+        ),
+    );
+
+    public static $prefixDirsPsr4 = array (
+        'Letournel\\PathFinder\\Tests\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/letournel/path-finder/tests',
+        ),
+        'Letournel\\PathFinder\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/letournel/path-finder/src',
+        ),
+    );
+
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
+            $loader->prefixLengthsPsr4 = ComposerStaticInit277cbfa8a94bdf5a7eb06525fb8ecab6::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit277cbfa8a94bdf5a7eb06525fb8ecab6::$prefixDirsPsr4;
 
         }, null, ClassLoader::class);
     }

@@ -1,0 +1,69 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "f334729a6a285f6185491dc483eacc0a",
+    "packages": [
+        {
+            "name": "letournel/path-finder",
+            "version": "1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/letournel/path-finder.git",
+                "reference": "f90ad4034b88b24b1b0344b9cb764fa8f1aa835f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/letournel/path-finder/zipball/f90ad4034b88b24b1b0344b9cb764fa8f1aa835f",
+                "reference": "f90ad4034b88b24b1b0344b9cb764fa8f1aa835f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Letournel\\PathFinder\\": "src",
+                    "Letournel\\PathFinder\\Tests\\": "tests"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Adrien Letournel",
+                    "email": "4dr13n.l370urn3l@gmail.com"
+                }
+            ],
+            "description": "Path finder algorithm",
+            "keywords": [
+                "2opt",
+                "3opt",
+                "Graph algorithms",
+                "astar",
+                "dijkstra",
+                "floydwarshall",
+                "nearest neighbour",
+                "shortest path",
+                "travelling salesman"
+            ],
+            "time": "2017-07-23T14:59:22+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

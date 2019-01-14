@@ -6,4 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Letournel\\PathFinder\\Tests\\' => array($vendorDir . '/letournel/path-finder/tests'),
+    'Letournel\\PathFinder\\' => array($vendorDir . '/letournel/path-finder/src'),
 );
